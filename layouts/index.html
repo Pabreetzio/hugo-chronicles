@@ -1,0 +1,12 @@
+
+{{ define "main" }}
+    
+<header class="site-header">
+    <div class="container">
+        <h1>{{ .Site.Title }}</h1>
+        <h2>{{ .Site.Params.subtitle }}</h2>
+    </div>
+</header>
+
+<p>{{ .Site.Params.intro }}</p>
+{{ end }}
