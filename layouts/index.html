@@ -7,6 +7,6 @@
         <h2>{{ .Site.Params.subtitle }}</h2>
     </div>
 </header>
-
-<p>{{ .Site.Params.intro }}</p>
+{{ .Content}}
+{{ partial "home/testimonial.html" . }}
 {{ end }}
